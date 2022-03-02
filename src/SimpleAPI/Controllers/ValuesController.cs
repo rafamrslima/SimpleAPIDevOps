@@ -9,7 +9,7 @@ namespace SimpleAPI.Controllers
         [HttpGet]
         public string Get()
         {
-            return "123456";
+            return "1234";
         }
     }
 }
