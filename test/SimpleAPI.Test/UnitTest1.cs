@@ -10,7 +10,7 @@ public class UnitTest1
     [Fact]
     public void TestValues()
     {
-        var expected = "1234";
+        var expected = "Hello Devops World";
         var result = controller.Get();
         Assert.Equal(expected, result);
     }

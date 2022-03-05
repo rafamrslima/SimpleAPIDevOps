@@ -9,7 +9,7 @@ namespace SimpleAPI.Controllers
         [HttpGet]
         public string Get()
         {
-            return "1234";
+            return "Hello Devops World";
         }
     }
 }
